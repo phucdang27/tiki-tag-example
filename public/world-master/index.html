@@ -16,16 +16,11 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css">
-    <script async src="http://localhost:3001/script.js"></script>
-    <script>
+    <script async src="https://tag.tala.xyz/lib/sdk.js"></script>    <script>
       window.tikiTag = window.tikiTag || { cmd: [] };
       tikiTag.cmd.push(function () {
         this.init({
           user_id: "21347fe0-47fe-43dc-8ee2-49ec3a3b577c",
-          params: {
-            TAPP: "123456",
-            TAPO: "TIKI",
-          },
         });
       });
     </script>
@@ -276,13 +271,13 @@
                                         <div class="col-12 col-md-6">
                                             <!-- Single Blog Post -->
                                             <div class="single-blog-post post-style-2 d-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
-                                                <div data-slot-id="41ddc876-50fb-49b5-802e-00aca5e135e2" style="width:100%; overflow: hidden">
-                                                    <script>
-                                                      tikiTag.cmd.push(function () {
-                                                        this.defineSlot("41ddc876-50fb-49b5-802e-00aca5e135e2", [200, 106]);
-                                                      });
-                                                    </script>
-                                                  </div>
+                                                <div data-slot-id="17a069ca-3073-40fe-bb1e-bee1ca033bc7"><div><iframe style="width: 250px; height: 250px; border: none; overflow: hidden;"></iframe></div>
+                                                <script>
+                                                  tikiTag.cmd.push(function () {
+                                                    this.defineSlot("17a069ca-3073-40fe-bb1e-bee1ca033bc7", [250,250], { refreshInterval: 10000 });
+                                                  });
+                                                </script>
+                                              </div>
                                                 
                                             </div>
 
